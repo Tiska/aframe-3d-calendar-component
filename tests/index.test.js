@@ -3,18 +3,18 @@ require('aframe');
 require('../index.js');
 var entityFactory = require('./helpers').entityFactory;
 
-suite('a-frame-3D-calendar component', function () {
+suite('aframe-3d-calendar-component component', function () {
   var component;
   var el;
 
   setup(function (done) {
     el = entityFactory();
     el.addEventListener('componentinitialized', function (evt) {
-      if (evt.detail.name !== 'a-frame-3D-calendar') { return; }
-      component = el.components['a-frame-3D-calendar'];
+      if (evt.detail.name !== 'aframe-3d-calendar-component') { return; }
+      component = el.components['aframe-3d-calendar-component'];
       done();
     });
-    el.setAttribute('a-frame-3D-calendar', {});
+    el.setAttribute('aframe-3d-calendar-component', {});
   });
 
   suite('foo property', function () {

@@ -8,7 +8,7 @@ if (typeof AFRAME === 'undefined') {
 /**
  * A-Frame 3D Calendar component for A-Frame.
  */
-AFRAME.registerComponent('a-frame-3d-calendar-component', {
+AFRAME.registerComponent('aframe-3d-calendar-component', {
     schema: {
         locale: {type: 'string', default: 'en'},
         datas: {
