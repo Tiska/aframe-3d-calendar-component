@@ -11,7 +11,15 @@ For [A-Frame](https://aframe.io).
 
 | Property | Description | Default Value |
 | -------- | ----------- | ------------- |
-|          |             |               |
+| locale   |             | en            |
+| -------- | ----------- | ------------- |
+| color    |             | white         |
+| -------- | ----------- | ------------- |
+| colorDays|             | #1589CC       |
+| -------- | ----------- | ------------- |
+| mode     |             | full          |
+| -------- | ----------- | ------------- |
+| datas    |             | []            |
 
 ### Installation
 
@@ -28,7 +36,7 @@ Install and use by directly including the [browser files](dist):
 
 <body>
   <a-scene>
-    <a-entity a-frame-3d-calendar-component="locale: en; color: blue; colordays: colorDays; mode: full"></a-entity>
+    <a-entity a-frame-3d-calendar-component="locale: en; color: blue; colorDays: colorDays; mode: full"></a-entity>
   </a-scene>
 </body>
 ```
