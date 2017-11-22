@@ -12,13 +12,9 @@ For [A-Frame](https://aframe.io).
 | Property | Description | Default Value |
 | -------- | ----------- | ------------- |
 | locale   |             | en            |
-| -------- | ----------- | ------------- |
 | color    |             | white         |
-| -------- | ----------- | ------------- |
 | colorDays|             | #1589CC       |
-| -------- | ----------- | ------------- |
 | mode     |             | full          |
-| -------- | ----------- | ------------- |
 | datas    |             | []            |
 
 ### Installation
