@@ -27,7 +27,7 @@ Install and use by directly including the [browser files](dist):
 <head>
   <title>My A-Frame Scene</title>
   <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
-  <script src="https://unpkg.com/aframe-3d-calendar-component/dist/aframe-3d-calendar-component.min.js"></script>
+  <script src="https://cdn.rawgit.com/Tiska/aframe-3d-calendar-component/master/dist/aframe-3d-calendar-component.min.js"></script>
 </head>
 
 <body>

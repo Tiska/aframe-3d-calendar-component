@@ -7,7 +7,7 @@ let config = {
         js: "./index.js"
     },
     output: {
-        filename: './dist/aframe-3d-calendar-component.js'
+        filename: './dist/aframe-3d-calendar-component.min.js'
     },
     module: {
         rules: [
