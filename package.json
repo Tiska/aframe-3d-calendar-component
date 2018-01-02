@@ -1,6 +1,6 @@
 {
   "name": "aframe-3d-calendar-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A A-Frame 3D Calendar component for A-Frame.",
   "main": "index.js",
   "unpkg": "dist/aframe-3d-calendar-component.min.js",
